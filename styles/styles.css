@@ -356,3 +356,48 @@ nav a{
 .see1{
    align-items: center;
 }
+.A1{
+    color: #131318;
+    font-size: 40px;
+}
+.A2{
+    color: #5A5A5D;
+    font-size: 16px;
+}
+.A3{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+}
+.j1{
+    text-align: right;
+}
+.n1{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.l1{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.j1{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.last-1{
+    text-align: center;
+}
+.last-1{
+        padding: 130px;
+        border-radius: 10px;
+        background: rgba(19, 19, 24, 0.05);
+        margin: 130px 0;
+}
+.last-2{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+}
+
