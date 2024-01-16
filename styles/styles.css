@@ -401,3 +401,18 @@ nav a{
     font-weight: 300;
 }
 
+
+
+/* Responsive Mobile */
+
+@media screen and (max-width: 576px) {
+    .img-b-1{
+        display: none;
+    }
+    .img-b-2{
+        display: none;
+    }
+    .img-b-3{
+        display: none;
+    }
+}
