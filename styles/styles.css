@@ -1,0 +1,358 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* share style */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* start nav */
+
+.nav-title{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+
+}
+.nav2{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+    text-align: right;
+
+}
+nav > ul{
+    display: flex;
+    flex-direction: row-reverse;
+    
+   
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+
+.navh1{
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+.navh2{
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+.right1{
+    text-align: right;
+   
+}
+.img1{
+    text-align: center;
+
+
+}
+
+.img-h{
+    color: red;
+    font-size: 64px;
+    font-weight: 800;
+}
+.b-d{
+    padding: 200px;
+    border-radius: 10px;
+    background: rgb(28, 159, 211);
+    margin: 130px 0;
+}
+.b-input{
+  font-size: 20px;
+}
+#select{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px;
+}
+#whrer-go{
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px;
+}
+.f-n{
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+.o1{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.img-2{
+    text-align: right;
+}
+.p1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.p2{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
+.img1-t1{
+    position: absolute;
+    right: 90%;
+    left: 10%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.container{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.img1-t1{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.container2{
+    position: relative;
+    text-align: right;
+    color: white;
+}
+.img-t2{
+    position: absolute;
+    right: 14%;
+    left: 86%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.img-t2{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.img-t3{
+    position: absolute;
+    right: 49%;
+    left: 51%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.container3{
+    position: relative;
+    text-align: center;
+    color: white;
+    
+}
+.img-t3{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.container4{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.img-t4{
+    position: absolute;
+    right: 90%;
+    left: 10%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.img-t4{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.container5{
+    position: relative;
+    text-align: right;
+    color: white;
+}
+.img-t5{
+    position: absolute;
+    right: 10%;
+    left: 90%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.img-t5{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.container6{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.img-t6{
+    position: absolute;
+    right: 90%;
+    left: 10%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.img-t6{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.container7{
+    position: relative;
+    text-align: right;
+    color: white;
+}
+
+.img-t7{
+    position: absolute;
+    right: 10%;
+    left: 90%;
+    top: 250px;
+    transform: translate(-50%, -50%);
+}
+.img-t7{
+    color:white;
+    font-size: 28px;
+    font-weight: 800;
+}
+.w1{
+    text-align: center;
+}
+.sv1{
+    padding:130px ;
+    border-radius: 10px;
+    margin: 130px 0;
+}
+.sv1, .sv2, .sv3{
+    text-align: center;
+}
+.sv1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.sv2{
+    padding:130px ;
+    border-radius: 10px;
+    margin: 130px 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.sv3{
+    padding:130px ;
+    border-radius: 10px;
+    margin: 130px 0;
+    border-radius: 16px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.d1{
+    text-align: center;
+}
+.d2{
+    color: #131318;
+    font-size: 40px;
+}
+.d3{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.mm1{
+    color: red;
+    display: flex;
+    gap: 8px;
+
+}
+.bb1{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30% 30% auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.k1 img{
+    max-width: 100%;
+    height: auto;
+}
+.container8{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+.img-b-1{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 470rem;
+    transform: translate(-50%, -50%);
+}
+
+.img-b-2{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 515rem;
+    transform: translate(-50%, -50%);
+}
+.bb2{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30% 30% auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.container9{
+    position: relative;
+    text-align: left;
+    color: white;
+}
+
+.img-b-3{
+    position: absolute;
+    right: 20%;
+    left: 20%;
+    top: 540rem;
+    transform: translate(-50%, -50%);
+}
+.bb3{
+    padding: 30px;
+    border-radius: 10px;
+    margin: 30% 30% auto;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+
+.see1{
+   align-items: center;
+}
